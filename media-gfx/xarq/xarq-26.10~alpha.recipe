@@ -46,7 +46,7 @@ REQUIRES="
 	lib:libexpat
 	lib:libfreehand_0.1
 	lib:libfreetype
-	lib:libgdal
+	lib:libgdal >= 30
 	lib:libGL
 	lib:libgvc
 	lib:libharfbuzz
@@ -81,7 +81,7 @@ BUILD_REQUIRES="
 	devel:libexpat
 	devel:libfreehand_0.1
 	devel:libfreetype
-	devel:libgdal
+	devel:libgdal >= 30
 	devel:libgvc
 	devel:libharfbuzz
 	devel:libjpeg
